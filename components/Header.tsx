@@ -78,7 +78,7 @@ export const Header: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 p-6 flex flex-col space-y-4 shadow-xl">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 p-6 flex flex-col space-y-4 shadow-xl h-screen z-50">
           {['Home', 'Services', 'Portfolio', 'Contact'].map((item) => (
             <a 
               key={item} 
